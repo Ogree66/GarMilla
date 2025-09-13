@@ -1,0 +1,23 @@
+[
+  {
+    "id": "GC-DEMO-1",
+    "name": "Veszprém-völgy A",
+    "lat": 47.09050,
+    "lon": 17.89720,
+    "found": false
+  },
+  {
+    "id": "GC-DEMO-2",
+    "name": "Veszprém-völgy B",
+    "lat": 47.09180,
+    "lon": 17.90510,
+    "found": true
+  },
+  {
+    "id": "GC-DEMO-3",
+    "name": "Veszprém-völgy C",
+    "lat": 47.09420,
+    "lon": 17.89990,
+    "found": false
+  }
+]

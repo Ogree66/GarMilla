@@ -1,0 +1,30 @@
+# Gradle és build
+.gradle/
+build/
+*/build/
+
+# Android Studio
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Generált fájlok
+*.apk
+*.ap_
+*.dex
+*.class
+*.jar
+*.war
+*.ear
+*.map
+*.cxx
+local.properties
+
+# Logok
+*.log
+# Nagy fájlok kizárása
+*.map
+*.apk
+*.dex
+*.jar

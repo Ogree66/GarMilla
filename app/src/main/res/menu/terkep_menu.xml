@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_alert_radius"
+        android:title="@string/alert_radius"
+        android:icon="@android:drawable/ic_dialog_info"
+        app:showAsAction="ifRoom|withText" />
+</menu>

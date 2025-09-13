@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">GarMilla</string>
+    <string name="zoom_in">Nagyítás</string>
+    <string name="zoom_out">Kicsinyítés</string>
+    <string name="my_location">Ugorj rám</string>
+
+    <!-- Menü szövegek -->
+    <string name="alert_radius">Riasztási távolság</string>
+    <string name="settings">Beállítások</string>
+    <string name="gps_no_fix">Nincs GPS pozíció, próbáld újra!</string>
+</resources>
