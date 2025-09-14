@@ -1,48 +1,44 @@
-# --- Android alap build mappák ---
+@"
+# Gradle és build
 .gradle/
 build/
 */build/
 
-# --- Android Studio és IntelliJ ---
+# Android Studio
 .idea/
 *.iml
 *.ipr
 *.iws
-/.navigation/
-/.settings/
-out/
 
-# --- Lokális fájlok (nem kerülhetnek repo-ba) ---
-local.properties
-*.jks
-*.keystore
-
-# --- Fordítás során generált fájlok ---
+# Generált fájlok
 *.apk
 *.ap_
-*.aab
 *.dex
 *.class
 *.war
 *.ear
 *.map
 *.cxx
-*.so
-*.o
-*.obj
+local.properties
 
-# --- Logok ---
+# Logok
 *.log
 
-# --- OS specifikus ---
+# OS
 .DS_Store
 Thumbs.db
 
-# --- Kepek, nagy fájlok tiltása ---
+# Android Studio kiegészítők
+/.navigation/
+/.settings/
+/out/
+
+# Keystore (SOHA ne kerüljön GitHubra!)
+*.jks
+*.keystore
+
+# Nagy fájlok kizárása
 *.obb
 
-# --- FONTOS: Gradle wrapper fájlok mindig bekerülnek ---
-!gradle/wrapper/gradle-wrapper.jar
-!gradle/wrapper/gradle-wrapper.properties
-!gradlew
-!gradlew.bat
+# --- FONTOS: gradle-wrapper.jar engedélyezve marad! ---
+"@ | Set-Content -Encoding UTF8 .gitignore
