@@ -1,44 +1,51 @@
-@"
-# Gradle és build
+# Android build outputs
+/build/
+app/build/
+*.apk
+*.ap_
+*.aab
+
+# Gradle files
 .gradle/
-build/
-*/build/
-# --- FONTOS: gradle-wrapper.jar engedélyezve marad! ---
-!gradle/wrapper/
+**/build/
+!gradle/wrapper/gradle-wrapper.jar
 
+# Local configuration file (sdk path, etc)
+local.properties
 
-# Android Studio
+# IntelliJ / Android Studio
 .idea/
 *.iml
 *.ipr
 *.iws
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/gradle.xml
+.idea/assetWizardSettings.xml
+.idea/dictionaries
+.idea/libraries
+.idea/caches
+.idea/modules.xml
+.idea/.name
+.idea/compiler.xml
+.idea/encodings.xml
+.idea/misc.xml
+.idea/vcs.xml
+.idea/deploymentTargetDropDown.xml
 
-# Generált fájlok
-*.apk
-*.ap_
-*.dex
-*.class
-*.war
-*.ear
-*.map
-*.cxx
-local.properties
-
-# Logok
-*.log
-
-# OS
+# Misc
 .DS_Store
-Thumbs.db
+*.swp
+*.lock
+*.log
+*.tmp
 
-# Android Studio kiegészítők
-/.navigation/
-/.settings/
-/out/
+# Generated files
+captures/
+outputs/
+generated/
 
-# Keystore (SOHA ne kerüljön GitHubra!)
+# Keystores
 *.jks
 *.keystore
-
-# Nagy fájlok kizárása
-*.obb
+secrets/
